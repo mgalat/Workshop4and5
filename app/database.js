@@ -86,9 +86,9 @@ var initialData = {
     }
 };
 
-//var data = JSON.parse(localStorage.getItem('facebook_data'));
+var data = JSON.parse(localStorage.getItem('facebook_data'));
 //var data = JSON.parse(initialData);
-var data = initialData;
+//var data = JSONClone(initialData);
 if (data === null) {
   data = JSONClone(initialData);
 }
