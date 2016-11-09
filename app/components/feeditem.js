@@ -134,7 +134,7 @@ return liked;
                     {data.comments.map((comment, i) => {
                         // i is comment's index in comments array
                         return (
-                            <Comment key={i} author={comment.author} postDate={comment.postDate}>
+                            <Comment itemId={this.state._id} key={i} index={i} author={comment.author} postDate={comment.postDate} data={comment}>
                                 {comment.contents}
                             </Comment>
                         );

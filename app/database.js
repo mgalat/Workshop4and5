@@ -50,6 +50,7 @@ var initialData = {
             // List of comments on the post
             "comments": [
                 {
+                    "likeCounter": [],
                     // The author of the comment.
                     "author": 2,
                     // The contents of the comment.
@@ -57,6 +58,7 @@ var initialData = {
                     "postDate": 1453690800000
                 },
                 {
+                  "likeCounter": [],
                   "author": 3,
                   "contents": "sending hugs your way",
                   "postDate": 1453690800000
